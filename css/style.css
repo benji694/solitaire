@@ -1,0 +1,19 @@
+#table{
+    background-color: black;
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.cards{
+    width: 30%;
+    height: 30%;
+    background-color: blue;
+    transition: all 0.2s;
+}
+.cards:hover{
+    transform: scale(1.05);
+}
